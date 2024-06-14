@@ -1,0 +1,280 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background: #444;
+}
+
+.bgimage {
+    background: url('images/about.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: #fff;
+    text-align: center;
+}
+
+.hero_title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero_desc {
+    font-size: 1.5rem;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about, .services, .portfolio, .contact {
+    padding: 2rem 0;
+}
+
+.imageAboutPage {
+    width: 100%; /* Quarter of the container width */
+    height: auto; /* Maintain aspect ratio */
+    float: left; /* Align image to the left */
+    margin-right: 40px; /* Add some space to the right of the image */
+}
+
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.servicesIcon {
+    font-size: 3rem;
+    color: #333;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+.main-container {
+    position: relative;
+    background-image: url('images/about.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust height as needed */
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure navbar is above other content */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white; /* Text color for navbar */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.navbar-brand {
+    color: white; /* Adjust text color for navbar brand */
+    font-weight: bold; /* Optionally adjust font weight */
+}
+.about-section {
+     padding: 40px;
+        background-color: #f8f9fa; /* Light gray background color */
+}
+
+.about-image {
+        float: left;
+        width: 25%; /* Image takes up 25% of the container width */
+        margin-right: 20px; /* Add margin for spacing */
+        margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.about-content {
+        overflow: hidden; /* Clear float */
+}
+
+.about-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+}
+
+.about-details {
+        font-size: 16px;
+        color: #6c757d; /* Gray color for details */
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+    background-image: url('../images/about-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.about-image {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.about-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-details {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+.services-section {
+    padding: 60px 0;
+    background-image: url('../images/services-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.service-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 60px 0;
+    background-image: url('../images/projects-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.project-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.project-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #0056b3;
+}
+
+/* Contact Me Section */
+.contact-section {
+    padding: 60px 0;
+    background-image: url('images/contact.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
